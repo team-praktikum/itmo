@@ -3,12 +3,12 @@
 Ссылка на [Notion](https://www.notion.so/b983be8cdadf4d2ba4ab85756538bac7)
 
 
-##Участники
+## Участники
 
 (список из слака) Команда 8:
-1. @Александр Крылов
-2. @Олесь Черный
-3. @Михаил Орехов
-4. @Мария Александрова
-5. @Костя Евдокимов
-6. @Георгий Ревазашвили
+(список из слака) Команда 8:
+1. [@Олесь Черный] (https://yandex-students.slack.com/team/U02R5C8LRTM)
+2. [@Михаил Орехов] (https://yandex-students.slack.com/team/U01EP0YCDV5)
+3. @Мария Александрова (https://yandex-students.slack.com/team/U01P8C0SJTS)
+4. @Костя Евдокимов (https://yandex-students.slack.com/team/U01UBKU5FA9)
+5. @Георгий Ревазашвили (https://yandex-students.slack.com/team/U025CJYEW1Z)
