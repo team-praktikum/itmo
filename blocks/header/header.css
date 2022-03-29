@@ -1,0 +1,14 @@
+.header {
+    position: relative;
+    min-height: 80px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #000D26;
+    position: relative;
+}
+
+@media (max-width: 767px) {
+    .header {
+        min-height: 44px;
+    }
+}

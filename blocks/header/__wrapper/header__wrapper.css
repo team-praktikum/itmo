@@ -1,0 +1,17 @@
+.header__wrapper {
+    width: 100%;
+    max-width: 1110px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+@media (max-width: 1023px) {
+    .header__wrapper {
+        justify-content: center;
+    }
+  }
+  
