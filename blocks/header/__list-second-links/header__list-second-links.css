@@ -1,0 +1,45 @@
+.header__list-second-links {
+    list-style-type: none;
+    display: none;
+    max-width: 120px;
+    width: 100%;
+    
+}
+
+
+@media screen and (min-width: 1020px) {
+  .header__list-second-links {
+    padding: 0;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    padding-top: 20px;
+    
+  }
+ 
+}
+/*До десктопа*/
+@media screen and (max-width: 1023px) {
+    .header__list-second-links {
+      flex-direction: column;
+      position: relative;
+      padding: 0;
+      width: 100%;
+  
+    }
+
+    .header__list-second-links  > .header__list-second-item:hover {
+      background: #001337;
+
+    }
+  
+  }
+  
+  
+@media screen and (min-width: 1020px) {
+  .header__list-second-links  > .header__list-second-item:hover{
+    
+    background: #009FAC;
+  
+  }
+}
