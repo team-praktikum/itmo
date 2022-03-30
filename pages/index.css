@@ -23,3 +23,12 @@
 @import url(../blocks/header/__burger-menu/header__burger-menu.css);
 @import url(../blocks/header/__button-close/header__button-close.css);
 @import url(../blocks/header/__button-burger/_active/header__button-burger_active.css);
+
+ /* main-page */
+ @import url(../blocks/main-page/main-page.css);
+ @import url(../blocks/main-page/__wrapper/hmain-page__wrapper.css);
+ @import url(../blocks/main-page/__intro/main-page__intro.css);
+ @import url(../blocks/main-page/__title/main-page__title.css);
+ @import url(../blocks/main-page/__text/main-page__text.css);
+ @import url(../blocks/main-page/__subtitle/main-page__subtitle.css);
+ @import url(../blocks/main-page/__button/main-page__button.css);

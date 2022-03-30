@@ -1,0 +1,17 @@
+.main-page__title {
+  margin: 0;
+  max-width: 445px;
+  font-size: 54px;
+  line-height: 68px;
+  font-weight: 400;
+  color: #fff;
+  margin-bottom: 12px;
+}
+
+@media (max-width: 765px) {
+  .main-page__title {
+    max-width: 288px;
+    font-size: 32px;
+    line-height: 43px;
+  }
+}

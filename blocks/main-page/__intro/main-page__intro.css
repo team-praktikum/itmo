@@ -1,0 +1,10 @@
+.main-page__intro {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 767px) {
+  .main-page__intro {
+    width: calc(100% - 32px);
+  }
+}
