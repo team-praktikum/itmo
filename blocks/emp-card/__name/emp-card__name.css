@@ -1,0 +1,28 @@
+.emp-card__name {
+    margin: 20px 0 0 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #000D26;
+}
+
+@media screen and (max-width:768px) {
+    .emp-card__name {
+        margin-top: 12px;
+        font-size: 14px;
+        line-height: 19px;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .emp-card__name {
+        margin-top: 10px;
+        font-size: 12px;
+        line-height: 16px;
+        max-width: 75px;
+    }
+}

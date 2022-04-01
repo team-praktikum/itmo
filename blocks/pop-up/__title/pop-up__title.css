@@ -1,0 +1,28 @@
+.pop-up__title {
+    grid-area: title;
+    align-self: center;
+    margin: 0 0 0 20px;
+    padding: 0;
+    height: 25px;
+    position: relative;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    color: #000D26;
+    font-family: 'Open Sans';
+}
+
+@media screen and (max-width: 768px) {
+    .pop-up__title {
+        margin-top: 27px;
+        font-size: 14px;
+        line-height: 19px;
+    }
+}
+
+
+@media screen and (max-width: 320px) {
+    .pop-up__title {
+        margin: 0;
+    }
+}

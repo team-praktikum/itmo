@@ -1,0 +1,21 @@
+.pop-up__text-area {
+    margin: 0 0 0 20px;
+    padding: 0;
+    grid-area: text;
+    position: relative;
+    max-width: 650px;
+}
+
+@media screen and (max-width: 768px) {
+    .pop-up__text-area {
+        margin-top: 15px;
+        max-width: 431px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .pop-up__text-area {
+        margin: 10px 0 0 0;
+        max-width: 268px;
+    }
+}

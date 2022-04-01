@@ -1,0 +1,5 @@
+@media screen and (max-width:320px) {
+    .emp-card__span-unbreak {
+        display: none;
+    }
+}

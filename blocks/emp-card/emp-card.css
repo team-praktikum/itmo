@@ -1,0 +1,29 @@
+.emp-card {
+    position: relative;
+    padding: 20px 20px 0 20px;
+    width: 255px;
+    height: 439px;
+    background-color: white;
+    border-radius: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media screen and (max-width:768px) {
+    .emp-card {
+        width: 210px;
+        height: 337px;
+        border-radius: 8.23529px;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .emp-card {
+        width: 140px;
+        height: 256px;
+        padding: 10px 10px 0 10px;
+        border-radius: 5px;
+    }
+}

@@ -1,0 +1,6 @@
+@import url(../blocks/emp-card/emp-card.css);
+@import url(../blocks/emp-card/__image/);
+@import url(../blocks/emp-card/__name/emp-card__name.css);
+@import url(../blocks/emp-card/__span-space/emp-card__span-space.css);
+@import url(../blocks/emp-card/__span-unbreak/emp-card__span-unbreak.css);
+@import url(../blocks/emp-card/__work/emp-card__work.css);

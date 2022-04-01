@@ -1,0 +1,23 @@
+.emp-card__image {
+    position: relative;
+    width: 215px;
+    height: 286px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+@media screen and (max-width:768px) {
+    .emp-card__image {
+        width: 170px;
+        height: 226px;
+        border-radius: 7.87278px;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .emp-card__image {
+        width: 120px;
+        height: 160px;
+        border-radius: 5px;
+    }
+}

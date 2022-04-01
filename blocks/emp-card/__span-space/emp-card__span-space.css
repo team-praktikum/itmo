@@ -1,0 +1,9 @@
+.emp-card__span-space {
+    display: none;
+}
+
+@media screen and (max-width:320px) {
+    .emp-card__span-space {
+        display: inline;
+    }
+}

@@ -1,0 +1,16 @@
+.pop-up__list {
+    margin:0 0 0 30px;
+    padding:0;
+}
+
+@media screen and (max-width: 768px) {
+    .pop-up__list {
+        margin:0 0 0 20px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .pop-up__list {
+        margin:0 0 0 15px;
+    }
+}

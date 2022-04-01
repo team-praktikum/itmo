@@ -1,0 +1,26 @@
+.pop-up__image {
+    grid-area: img;
+    position: relative;
+    width: 400px;
+    height: 678px;
+    border-radius: 10px;
+    background-image: url(./images/Pop-up/for-pop-up.png);
+    background-size: cover;
+}
+
+@media screen and (max-width: 768px) {
+    .pop-up__image {
+        width: 199px;
+        height: 414px;
+        background-position: center;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .pop-up__image {
+        width: 268px;
+        height: 160px;
+        background-position: center;
+        margin-top: 15px;
+    }
+}
