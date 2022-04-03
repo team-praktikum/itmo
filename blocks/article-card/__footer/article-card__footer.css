@@ -1,0 +1,25 @@
+.article-card__footer {
+  position: relative;
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+  background-color: #009fac;
+  box-sizing: content-box;
+  border-radius: 0 0 10px 10px;
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .article-card__footer {
+    display: flex;
+    height: 60px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .article-card__footer {
+    height: 44px;
+    border-radius: 0 0 5px 5px;
+  }
+}

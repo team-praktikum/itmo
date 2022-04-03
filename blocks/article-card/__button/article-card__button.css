@@ -1,0 +1,8 @@
+.article-card__button {
+  all: unset;
+  cursor: pointer;
+  margin-right: 20px;
+  width: 24px;
+  height: 24px;
+  background-image: url("../../../images/Publication/Icon/clarity_share-solid.svg");
+}

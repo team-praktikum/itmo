@@ -1,0 +1,16 @@
+.article-card__body {
+  margin: 0 20px 30px 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .article-card__body {
+    margin-top: 12px;
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .article-card__body {
+    margin: 10px 16px 16px 16px;
+  }
+}

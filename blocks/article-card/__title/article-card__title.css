@@ -1,0 +1,14 @@
+.article-card__title {
+  margin: 0;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+  color: #000d26;
+}
+
+@media screen and (max-width: 425px) {
+  .article-card__title {
+    font-size: 14px;
+    line-height: 19px;
+  }
+}
