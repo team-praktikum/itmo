@@ -1,0 +1,23 @@
+.footer__contact-terms {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  margin: 0;
+  color: #FFFFFF;
+}
+
+@media (min-width: 768px) and (max-width: 1439px) {
+  .footer__contact-terms {
+    font-size: 12px;
+    line-height: 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .footer__contact-terms {
+    font-size: 12px;
+    line-height: 20px;
+  }
+}

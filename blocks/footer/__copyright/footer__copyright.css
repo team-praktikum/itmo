@@ -1,0 +1,20 @@
+.footer__copyright {
+  grid-row: 2/3;
+  grid-column: 1/2;
+}
+
+@media (min-width: 768px) and (max-width: 1439px) {
+  .footer__copyright {
+    width: 241px;
+    height: 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  .footer__copyright {
+    width: 140px;
+    height: 33px;
+    grid-column: 2/3;
+    grid-row: 1/2;
+  }
+}

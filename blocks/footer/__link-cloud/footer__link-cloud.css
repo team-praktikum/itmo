@@ -1,0 +1,23 @@
+.footer__link-cloud {
+  text-decoration: none;
+  color: #FFFFFF;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+@media (max-width: 767px) {
+  .footer__link-cloud {
+    font-size: 12px;
+    line-height: 20px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1439px) {
+  .footer__link-cloud {
+    font-size: 12px;
+    line-height: 16px;
+  }
+}

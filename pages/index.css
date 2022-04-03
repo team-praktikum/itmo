@@ -23,3 +23,22 @@
 @import url(../blocks/header/__burger-menu/header__burger-menu.css);
 @import url(../blocks/header/__button-close/header__button-close.css);
 @import url(../blocks/header/__button-burger/_active/header__button-burger_active.css);
+
+/* footer */
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__content/footer__content.css);
+@import url(../blocks/footer/__logo/footer__logo.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
+@import url(../blocks/footer/__copyright-title/footer__copyright-title.css);
+@import url(../blocks/footer/__info/footer__info.css);
+@import url(../blocks/footer/__info-heading/footer__info-heading.css);
+@import url(../blocks/footer/__info-links/footer__info-links.css);
+@import url(../blocks/footer/__link-cloud/footer__link-cloud.css);
+@import url(../blocks/footer/__contacts/footer__contacts.css);
+@import url(../blocks/footer/__contact/footer__contact.css);
+@import url(../blocks/footer/__contact-terms/footer__contact-terms.css);
+@import url(../blocks/footer/__contact-terms/_head/footer__contact-terms_head.css);
+@import url(../blocks/footer/__team/footer__team.css);
+@import url(../blocks/footer/__social-container/footer__social-container.css);
+@import url(../blocks/footer/__discription/footer__discription.css);
+@import url(../blocks/footer/__list-contact/footer__list-contact.css);

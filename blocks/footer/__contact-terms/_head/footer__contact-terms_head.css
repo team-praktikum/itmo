@@ -1,0 +1,18 @@
+.footer__contact-terms_head {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+@media (max-width: 767px) {
+  .footer__contact-terms {
+    font-size: 14px;
+    line-height: 19px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1439px) {
+  .footer__contact-terms {
+    font-weight: 700;
+    line-height: 20px;
+  }
+}

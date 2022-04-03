@@ -1,0 +1,12 @@
+.footer__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  grid-row: 2/3;
+}
+
+@media (min-width: 768px) and (max-width: 1439px) {
+  .footer__info {
+    grid-row: 3/4;
+  }
+}

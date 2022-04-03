@@ -1,0 +1,11 @@
+.footer__logo {
+  width: 150px;
+  height: 54px;
+}
+
+@media (max-width: 767px) {
+  .footer__logo {
+    width: 98px;
+    height: 33px;
+  }
+}

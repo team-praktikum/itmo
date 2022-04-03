@@ -1,0 +1,8 @@
+.footer__contact {
+  margin-bottom: 8px;
+}
+
+.footer__contact:last-child {
+  margin-bottom: 0;
+}
+

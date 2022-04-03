@@ -1,0 +1,26 @@
+.footer__info-heading {
+  margin-top: 0;
+  margin-bottom: 8px;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  color: #FFFFFF;
+}
+
+@media (max-width: 767px) {
+  .footer__info-heading {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1439px) {
+  .footer__info-heading {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+  }
+}

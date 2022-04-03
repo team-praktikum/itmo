@@ -1,0 +1,28 @@
+.footer__discription {
+  color: #FFFFFF;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  grid-row: 2/3;
+  grid-column: 1/2;
+  margin-top: 60px;
+  margin-bottom: 0;
+}
+
+@media (max-width: 767px) {
+  .footer__discription {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1439px) {
+  .footer__discription {
+    grid-row: 3/4;
+    margin: 0;
+    margin-right: 37px;
+    font-size: 12px;
+    line-height: 20px;
+  }
+}
