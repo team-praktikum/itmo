@@ -1,0 +1,15 @@
+.article-card__subtitle {
+  margin: 4px 0 0 0;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 13.6px;
+  line-height: 19px;
+  color: #009fac;
+}
+
+@media screen and (max-width: 425px) {
+  .article-card__subtitle {
+    font-size: 12px;
+    line-height: 17px;
+  }
+}

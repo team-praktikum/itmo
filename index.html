@@ -77,6 +77,7 @@
     <!--блок Publications-->
     <section id="publications" class="publications">
       <a href="#publications"></a>
+      <ul class="publications__container"> </ul>
     </section>
 
     <!--блок our-team-->
@@ -100,6 +101,54 @@
     </footer>
 
   </main>
+
+  <template id='article-card-template'>
+    <li class="article-card">
+      <div class="article-card__image"><img class="article-card__image-item" src="#" alt="Article Image">
+      </div>
+      <header class="article-card__header">
+        <h2 class="article-card__title"></h2>
+        <h3 class="article-card__subtitle"></h3>
+      </header>
+      <div class="article-card__body">
+        <p class="article-card__copy"></p>
+      </div>
+      <footer class="article-card__footer">
+        <div class="article-card__actions">
+          <a href="#" class="article-card__link">Читать полностью <img src='./images/Publication/Icon/arrow-right.svg'
+              alt="icon arrow right"></a>
+        </div>
+        <button class="article-card__button">
+        </button>
+        <ul class="article-card__share-menu">
+          <li class="article-card__share-element">
+            <a href="#" class="article-card__share-element-link">
+              <img src="./images/Publication/Icon/vk.svg" alt="Вконтакте">
+            </a>
+          </li>
+          <li class="article-card__share-element">
+            <a href="#" class="article-card__share-element-link">
+              <img src="./images/Publication/Icon/FB.svg" alt="Facebook">
+            </a>
+          </li>
+          <li class="article-card__share-element">
+            <a href="#" class="article-card__share-element-link">
+              <img src="./images/Publication/Icon/Telegram.svg" alt="Telegram">
+            </a>
+          </li>
+          <li class="article-card__share-element">
+            <a href="#" class="article-card__share-element-link">
+              <img src="./images/Publication/Icon/Insta.svg" alt="Instagram">
+            </a>
+          </li>
+          <li class="article-card__share-element">
+            <a href="#" class="article-card__share-element-link">
+              <img src="./images/Publication/Icon//You Tube.svg" alt="YouTube">
+            </a>
+          </li>
+  </template>
+
+  <script src="./scripts/index.js"></script>
 </body>
 
 </html>
