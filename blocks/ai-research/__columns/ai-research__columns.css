@@ -1,0 +1,22 @@
+.ai-research__columns {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+@media screen and (max-width: 1180px) {
+  .ai-research__columns {
+    /* padding-bottom: 40px; */
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .ai-research__columns {
+    padding-bottom: 20px;
+    grid-template-columns: none;
+    grid-template-areas:
+      "image"
+      "texts";
+    row-gap: 20px;
+  }
+}

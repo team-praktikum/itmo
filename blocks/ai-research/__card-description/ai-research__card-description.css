@@ -1,0 +1,26 @@
+.ai-research__card-description {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.1px;
+  color: #001337;
+  margin: 0;
+  padding-bottom: 50px;
+  z-index: 4;
+}
+
+@media screen and (max-width: 1180px) {
+  .ai-research__card-description {
+    font-size: 10px;
+    line-height: 14px;
+    padding-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .ai-research__card-description {
+    padding-bottom: 16px;
+  }
+}

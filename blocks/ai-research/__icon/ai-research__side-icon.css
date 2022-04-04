@@ -1,0 +1,8 @@
+.ai-research__side-icon {
+  background-image: url(../../../images/Components/icon-molecul.svg);
+  height: 24px;
+  width: 24px;
+  position: absolute;
+  left: -36px;
+  top: 128px;
+}

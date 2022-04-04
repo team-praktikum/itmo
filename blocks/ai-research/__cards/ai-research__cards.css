@@ -1,0 +1,23 @@
+.ai-research__cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding-bottom: 80px;
+  gap: 30px;
+}
+
+@media screen and (max-width: 1280px) {
+  .ai-research__cards {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(130px, 255px));
+    padding-bottom: 60px;
+    gap: 30px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .ai-research__cards {
+    grid-template-columns: repeat(2, minmax(140px, 100%));
+    padding-bottom: 40px;
+    gap: 8px;
+  }
+}

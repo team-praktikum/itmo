@@ -1,0 +1,28 @@
+.ai-research__title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 68px;
+  text-align: center;
+  letter-spacing: 0.1px;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 80px 0 60px 0;
+  color: #000D26;
+}
+
+@media screen and (max-width: 1180px) {
+  .ai-research__title {
+    font-size: 24px;
+    line-height: 33px;
+    padding: 60px 0 30px 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .ai-research__title {
+    font-size: 16px;
+    line-height: 22px;
+    padding: 40px 0 20px 0;
+  }
+}

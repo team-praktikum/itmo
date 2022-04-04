@@ -1,0 +1,11 @@
+.ai-research__image_right {
+  background-image: url(../../../../images/Lab/image_35.png);
+}
+
+@media screen and (max-width: 1180px) {
+  .ai-research__image_right {
+    display: flex;
+    background-image: url(../../../../images/Lab/image_35_640.png);
+
+  }
+}

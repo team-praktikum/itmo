@@ -1,0 +1,28 @@
+.ai-research__text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.1px;
+  color: #000D26;
+  margin: 0;
+  padding-bottom: 20px;
+}
+
+.ai-research__text:last-of-type {
+  padding-bottom: 0;
+}
+
+@media screen and (max-width: 1180px) {
+  .ai-research__text {
+    /* font-size: 14px;
+        line-height: 20px; */
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .ai-research__text {
+    font-size: 12px;
+    line-height: 16px;
+  }
+}
