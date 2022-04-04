@@ -1,0 +1,26 @@
+.ai-research__image {
+  height: 276px;
+  width: 264px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-clip: border-box;
+  background-size: contain;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 1180px) {
+  .ai-research__image {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: top right;
+  }
+}
+
+
+@media screen and (max-width: 767px) {
+  .ai-research__image {
+    height: 180px;
+    grid-area: image;
+  }
+}

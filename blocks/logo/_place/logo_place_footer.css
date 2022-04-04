@@ -1,0 +1,11 @@
+@media screen and (max-width: 1180px) {
+  .logo_place_footer {
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 498px) {
+  .logo_place_footer {
+    margin-bottom: 0;
+  }
+}

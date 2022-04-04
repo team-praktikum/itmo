@@ -1,0 +1,23 @@
+.logo_place_header {
+
+    
+}
+
+
+@media (max-width: 768px) {
+    .logo_place_header {
+        margin: 0;
+        max-width: 95px;
+        height: 32px;
+
+    }
+  }
+
+  @media (max-width: 460px) {
+    .logo_place_header {
+        margin: 0;
+        max-width: 71px;
+        height: 24px;
+
+    }
+  }

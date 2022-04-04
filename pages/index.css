@@ -2,6 +2,7 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/fonts.css);
 @import url(../blocks/page/page.css);
+@import url(../blocks/page/__section/page__section.css);
 @import url(../blocks/header/header.css);
 
  /* logo */
@@ -9,6 +10,10 @@
 @import url(../blocks/logo/_place/logo_place_header.css);
 @import url(../blocks/logo/_place/logo_place_nav-bar.css);
 @import url(../blocks/logo/_active/logo_active.css);
+
+/* link */
+@import url(../blocks/link/link.css);
+@import url(../blocks/link/_place/link_place_second-menu.css);
 
  /* header */
 @import url(../blocks/header/__list-links/header__list-links.css);
@@ -32,3 +37,32 @@
  @import url(../blocks/main-page/__text/main-page__text.css);
  @import url(../blocks/main-page/__subtitle/main-page__subtitle.css);
  @import url(../blocks/main-page/__button/main-page__button.css);
+
+ /* al-research */
+@import url(../blocks/ai-research/ai-research.css);
+@import url(../blocks/ai-research/__title/ai-research__title.css);
+@import url(../blocks/ai-research/__text/_light/ai-research__text_light.css);
+@import url(../blocks/ai-research/__text/ai-research__text.css);
+@import url(../blocks/ai-research/__text-wrapper/ai-research__text-wrapper.css);
+@import url(../blocks/ai-research/__images-wrapper/ai-research__images-wrapper.css);
+@import url(../blocks/ai-research/__image/_left/ai-research__image_left.css);
+@import url(../blocks/ai-research/__image/_right/ai-research__image_right.css);
+@import url(../blocks/ai-research/__image/ai-research__image.css);
+@import url(../blocks/ai-research/__side-icon/ai-research__side-icon.css);
+@import url(../blocks/ai-research/__icon-background/ai-research__icon-background.css);
+@import url(../blocks/ai-research/__columns/ai-research__columns.css);
+@import url(../blocks/ai-research/__cards/ai-research__cards.css);
+@import url(../blocks/ai-research/__card/ai-research__card.css);
+@import url(../blocks/ai-research/__card/_analysis/ai-research__card_analysis.css);
+@import url(../blocks/ai-research/__card/_infrastructure/ai-research__card_infrastructure.css);
+@import url(../blocks/ai-research/__card/_calculations/ai-research__card_calculations.css);
+@import url(../blocks/ai-research/__card/_systems/ai-research__card_systems.css);
+@import url(../blocks/ai-research/__card-title/ai-research__card-title.css);
+@import url(../blocks/ai-research/__card-icon/ai-research__card-icon.css);
+@import url(../blocks/ai-research/__card-icon/_systems/ai-research__icon-background_systems.css);
+@import url(../blocks/ai-research/__card-icon/_infrastructure/ai-research__icon-background_infrastructure.css);
+@import url(../blocks/ai-research/__card-icon/_calculations/ai-research__icon-background_calculations.css);
+@import url(../blocks/ai-research/__card-icon/_analysis/ai-research__card-icon_analysis.css);
+@import url(../blocks/ai-research/__card-description/ai-research__card-description.css);
+@import url(../blocks/ai-research/__card-button/ai-research__card-button.css);
+@import url(../blocks/ai-research/__background/ai-research__background.css);

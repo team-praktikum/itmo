@@ -1,0 +1,14 @@
+.ai-research__text-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  height: 260px;
+  width: 70%;
+}
+
+@media screen and (max-width: 767px) {
+  .ai-research__text-wrapper {
+    grid-area: texts;
+  }
+}

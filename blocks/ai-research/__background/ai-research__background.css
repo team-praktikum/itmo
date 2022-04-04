@@ -1,0 +1,17 @@
+.ai-research__background {
+  max-width: 1110px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1180px) {
+  .ai-research__background {
+    max-width: calc(100% - 80px);
+  }
+}
+
+@media screen and (max-width:767px) {
+
+  .ai-research__background {
+    max-width: calc(100% - 32px);
+  }
+}

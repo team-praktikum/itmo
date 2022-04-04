@@ -1,0 +1,14 @@
+.ai-research__card-icon {
+  width: 34px;
+  height: 34px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media screen and (max-width: 1180px) {
+  .ai-research__card-icon {
+    width: 20px;
+    height: 20px;
+  }
+}

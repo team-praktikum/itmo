@@ -1,0 +1,9 @@
+.ai-research__image_left {
+  background-image: url(../../../../images/Lab/image_38.png);
+}
+
+@media screen and (max-width: 1180px) {
+  .ai-research__image_left {
+    display: none;
+  }
+}

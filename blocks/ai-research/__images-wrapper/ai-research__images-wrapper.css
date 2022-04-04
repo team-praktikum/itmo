@@ -1,0 +1,19 @@
+.ai-research__images-wrapper {
+  display: flex;
+  /*  grid-template-columns: 1fr 1fr; */
+  gap: 12px;
+}
+
+@media screen and (max-width: 1180px) {
+  .ai-research__images-wrapper {
+    margin-left: 30px;
+    width: 30%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .ai-research__images-wrapper {
+    display: block;
+    gap: 0;
+  }
+}
