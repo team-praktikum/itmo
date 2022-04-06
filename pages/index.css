@@ -32,3 +32,27 @@
  @import url(../blocks/main-page/__text/main-page__text.css);
  @import url(../blocks/main-page/__subtitle/main-page__subtitle.css);
  @import url(../blocks/main-page/__button/main-page__button.css);
+
+ /* partners */
+ @import url(../blocks/partners/partners.css);
+ @import url(../blocks/partners/__title/partners__title.css);
+ @import url(../blocks/partners/__paragraph/partners__paragraph.css);
+ @import url(../blocks/partners/__container-logo/partners__container-logo.css);
+ @import url(../blocks/partners/__container-item/partners__container-item.css);
+ @import url(../blocks/partners/__container-item/_rosneft/partners__container-item_rosneft.css);
+ @import url(../blocks/partners/__container-item/_gazprom/partners__container-item_gazprom.css);
+ @import url(../blocks/partners/__container-item/_gazprom-copy/partners__container-item_gazprom-copy.css);
+ @import url(../blocks/partners/__container-item/_mail/partners__container-item_mail.css);
+ @import url(../blocks/partners/__container-item/_mail-copy/partners__container-item_mail-copy.css);
+ @import url(../blocks/partners/__container-item/_siemens/partners__container-item_siemens.css);
+ @import url(../blocks/partners/__container-item/_sber/partners__container-item_sber.css);
+ @import url(../blocks/partners/__container-item/_huawei/partners__container-item_huawei.css);
+ @import url(../blocks/partners/__container-item/_sber-copy/partners__container-item_sber-copy.css);
+ @import url(../blocks/partners/__container-item/_huawei-copy/partners__container-item_huawei-copy.css);
+ @import url(../blocks/partners/__image/_rosneft/partners__image_rosneft.css);
+ @import url(../blocks/partners/__image/_gazprom/partners__image_gazprom.css);
+ @import url(../blocks/partners/__image/_mail/partners__image_mail.css);
+ @import url(../blocks/partners/__image/_siemens/partners__image_siemens.css);
+ @import url(../blocks/partners/__image/_sber/partners__image_sber.css);
+ @import url(../blocks/partners/__image/_huawei/partners__image_huawei.css);
+

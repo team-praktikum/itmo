@@ -1,0 +1,19 @@
+.partners {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  min-height: 987px;
+}
+
+@media (max-width: 767px) {
+  .partners {
+    min-height: 620px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1439px) {
+  .partners {
+    min-height: 713px;
+  }
+}

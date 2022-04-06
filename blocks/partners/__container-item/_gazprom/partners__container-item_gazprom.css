@@ -1,0 +1,29 @@
+.partners__container-item_gazprom {
+  justify-content: flex-start;
+  align-items: flex-end;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+@media (max-width: 767px) {
+  .partners__container-item_gazprom {
+    justify-content: center;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 3;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1439px) {
+  .partners__container-item_gazprom {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    justify-content: flex-start;
+  }
+}
+

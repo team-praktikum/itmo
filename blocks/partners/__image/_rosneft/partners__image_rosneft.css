@@ -1,0 +1,19 @@
+.partners__image_rosneft {
+  width: 142px;
+  height: 48px;
+}
+
+@media (max-width: 767px) {
+  .partners__image_rosneft {
+    width: 89px;
+    height: 30px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1439px) {
+  .partners__image_rosneft {
+    width: 95px;
+    height: 32px;
+  }
+}
+

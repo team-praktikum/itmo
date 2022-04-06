@@ -1,0 +1,18 @@
+.partners__image_sber {
+  width: 194px;
+  height: 48px;
+}
+
+@media (max-width: 767px) {
+  .partners__image_sber {
+    width: 148px;
+    height: 20px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1439px) {
+  .partners__image_sber {
+    width: 194px;
+    height: 32px;
+  }
+}
