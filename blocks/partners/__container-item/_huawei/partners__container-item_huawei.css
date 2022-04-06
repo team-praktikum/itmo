@@ -1,0 +1,27 @@
+.partners__container-item_huawei {
+  justify-content: flex-end;
+  align-items: flex-end;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 5;
+  grid-column-end: 6;
+}
+
+@media (max-width: 767px) {
+  .partners__container-item_huawei {
+    justify-content: flex-end;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    grid-column-start: 2;
+    grid-column-end: 4;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1439px) {
+  .partners__container-item_huawei {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 4;
+    grid-column-end: 5;
+  }
+}

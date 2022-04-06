@@ -1,0 +1,31 @@
+.partners__container-item_siemens {
+  justify-content: flex-start;
+  align-items: flex-end;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 4;
+  grid-column-end: 5;
+  margin-left: -27px;
+}
+
+@media (max-width: 767px) {
+  .partners__container-item_siemens {
+    justify-content: flex-start;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    margin-left: 0;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1439px) {
+  .partners__container-item_siemens {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    justify-content: flex-start;
+    margin-left: -29px;
+  }
+}

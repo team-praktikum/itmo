@@ -1,0 +1,21 @@
+.partners__container-item_sber-copy {
+  justify-content: flex-start;
+  align-items: flex-end;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+@media (max-width: 767px) {
+  .partners__container-item_sber-copy {
+    display: none;
+
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1439px) {
+  .partners__container-item_sber-copy {
+    display: none;
+  }
+}
